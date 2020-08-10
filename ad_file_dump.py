@@ -38,11 +38,11 @@ import Jetson.GPIO as gpio #Imports gpio functionality for the Jetson
 import spidev #enables spi interface functions
 import time #enables us to delay commands
 import sys #Enables keyboard interrupt for safe early exit
-from ext_print import print_samp
+#from ext_print import print_samp
 from multiprocessing import Process, Queue
 
 int_pin = 29 #define external interrupt pin
-filepath = "/home/mindmap/Desktop/spi_test/sample_data_1.csv" #define filepath for data storage
+filepath = "/home/mindmap/Desktop/mindmap_final/sample_data.csv" #define filepath for data storage
 samples = 0
 pqueue = Queue()
 
